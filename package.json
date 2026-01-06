@@ -1,0 +1,16 @@
+{
+  "name": "mc-status-bot",
+  "version": "1.0.0",
+  "description": "Optimized Minecraft Status Bot for Node/Bun",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --optimize_for_size --max-old-space-size=450 index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
