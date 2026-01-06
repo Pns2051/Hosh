@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+package-lock.json
+bun.lockb
+npm-debug.log
+
+# Environment
+.env
+
+# System
+.DS_Store
+Thumbs.db
